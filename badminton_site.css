@@ -545,6 +545,9 @@ li.dropdown {
 	.w3-container{
 		margin-top: 75px;
 	}
+	.w3-container:hover .dropdown-content {
+    	display: none;
+	}
 }
 
 
