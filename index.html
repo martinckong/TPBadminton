@@ -57,11 +57,11 @@
 						<right><a onclick="myFunction()" href="#" class="dropbtn" id="nav1" style="color: white" style="padding-right: -15px">Menu</a></right>
 						<div class="dropdown-content" id="myDropdown">
 							<ul id="newsmall">
-								<li><a class="smoothScroll" href="#W" id="nav1">Home</a></li>
-								<li><a class="smoothScroll" href="#S" id="nav1">Schedule</a></li>
-								<li><a class="smoothScroll" href="#R" id="nav1">Roster</a></li>
-								<li><a class="smoothScroll" href="#C" id="nav1">Contact</a></li>
-								<li><a class="smoothScroll" href="#D" id="nav1">Donate</a></li>
+								<li><a onclick="myFunction2()" class="smoothScroll" href="#W" id="nav1">Home</a></li>
+								<li><a onclick="myFunction2()" class="smoothScroll" href="#S" id="nav1">Schedule</a></li>
+								<li><a onclick="myFunction2()" class="smoothScroll" href="#R" id="nav1">Roster</a></li>
+								<li><a onclick="myFunction2()" class="smoothScroll" href="#C" id="nav1">Contact</a></li>
+								<li><a onclick="myFunction2()" class="smoothScroll" href="#D" id="nav1">Donate</a></li>
 							</ul>
 						</div>
 					</li>
@@ -592,6 +592,16 @@ function myFunction() {
     var x = document.getElementById("togglepls");
     if (x.className === "dropdown") {
         x.className += " responsive";
+    } else {
+        x.className = "dropdown";
+    }
+}
+</script>
+<script>
+function myFunction2() {
+    var x = document.getElementById("togglepls");
+    if (x.className === "dropdown") {
+        x.className -= " responsive";
     } else {
         x.className = "dropdown";
     }

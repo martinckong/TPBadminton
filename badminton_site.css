@@ -548,7 +548,7 @@ li.dropdown {
 	/*.w3-container:hover .dropdown-content {
     	display: none;
 	}*/
-	.dropdown.responsive li {
+	/*.dropdown.responsive li {
     float: none;
     display: none;
     background-color: none;
@@ -556,7 +556,7 @@ li.dropdown {
     .dropdown.responsive li a {
     display: none;
     background-color: none;
-    }
+    }*/
     .dropdown.responsive .dropdown-content {
     display: none;
     background-color: none;
