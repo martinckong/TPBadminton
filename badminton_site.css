@@ -550,10 +550,10 @@ li.dropdown {
 	}*/
 	.dropdown.responsive li {
     float: none;
-    display: inline;
+    display: none;
     }
     .dropdown.responsive li a {
-    display: block;
+    display: none;
     text-align: left;
     }
 }
