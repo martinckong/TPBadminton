@@ -53,7 +53,7 @@
 	<div id="header">
 		<nav class="nav" id="mainNav" data-spy="affix" data-offset-top="75">
 			<div class="container">
-					<li class="dropdown">
+					<li class="dropdown" id="togglepls">
 						<right><a onclick="myFunction()" href="#" class="dropbtn" id="nav1" style="color: white" style="padding-right: -15px">Menu</a></right>
 						<div class="dropdown-content" id="myDropdown">
 							<ul id="newsmall">
@@ -564,14 +564,14 @@
 });</script>
 
 <!-- When the user clicks on the button, 
-toggle between hiding and showing the dropdown content -->
+toggle between hiding and showing the dropdown content 
 <script>
 	function myFunction() {
     	document.getElementById("myDropdown").classList.toggle("show");
 	}
-</script>
+</script> -->
 
-<!-- Close the dropdown menu if the user clicks outside of it -->
+<!-- Close the dropdown menu if the user clicks outside of it 
 <script>
 	window.onclick = function(event) {
   		if (!event.target.matches('.dropbtn')) {
@@ -585,6 +585,17 @@ toggle between hiding and showing the dropdown content -->
     		}
   		}
 	}
+</script> -->
+
+<script>
+function myFunction() {
+    var x = document.getElementById("togglepls");
+    if (x.className === "dropdown") {
+        x.className += " responsive";
+    } else {
+        x.className = "dropdown";
+    }
+}
 </script>
 
 </html>

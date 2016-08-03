@@ -545,9 +545,17 @@ li.dropdown {
 	.w3-container{
 		margin-top: 75px;
 	}
-	.w3-container:hover .dropdown-content {
+	/*.w3-container:hover .dropdown-content {
     	display: none;
-	}
+	}*/
+	.dropdown.responsive li {
+    float: none;
+    display: inline;
+    }
+    .dropdown.responsive li a {
+    display: block;
+    text-align: left;
+    }
 }
 
 
