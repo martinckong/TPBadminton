@@ -551,10 +551,15 @@ li.dropdown {
 	.dropdown.responsive li {
     float: none;
     display: none;
+    background-color: none;
     }
     .dropdown.responsive li a {
     display: none;
-    text-align: left;
+    background-color: none;
+    }
+    .dropdown.responsive .dropdown-content {
+    display: none;
+    background-color: none;
     }
 }
 
