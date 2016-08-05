@@ -547,6 +547,7 @@ li.dropdown {
 	}
 	.w3-container{
 		margin-top: 75px;
+		/*margin-top: 125px;*/
 	}
 	/*.w3-container:hover .dropdown-content {
     	display: none;
@@ -569,6 +570,9 @@ li.dropdown {
     }
     .r2{
     	display: inline;
+    }
+    #D{
+    	padding-bottom: 30px;
     }
 }
 
