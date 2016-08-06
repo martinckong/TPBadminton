@@ -128,7 +128,6 @@ li.dropdown {
     background-color: rgba(0, 0, 0, 0.60);
     min-width: 120px;
     color: white;
-    /*border: solid 1px green;*/
     text-align: right;
     float: right;
     align-content: right;
@@ -189,12 +188,8 @@ div.section{
 	display: inline-block;
 	position: relative;
 	text-align: center;
-	/*left: 0;
-	right: 0;*/
 }
 #down{
-	/*left: 0;
-	right: 0;*/
 	top: 0;
 	align-content: center;
 	width: 100%;
@@ -318,7 +313,7 @@ div.indent3{
 /* End styling for content sections */
 
 /* CSS styling for browser styles */
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 775px){
 	#poster2{
 		display: none;
 	}
@@ -394,7 +389,7 @@ div.indent3{
 		font-size: 18px;
 	}
 }
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 487px){
 	#copyright{
 		bottom: 15px;
 	}
