@@ -300,8 +300,6 @@ div.indent3{
 	max-width: 250px;
 }
 #copyright{
-	/*padding-top: 120px;*/
-	padding-top: -40px;
 	vertical-align: bottom;
 	text-align: center;
 	position: absolute;
@@ -317,30 +315,9 @@ div.indent3{
 	height: auto;
 	max-width: 280px;
 }
-.r2{
-	display: none;
-}
-#r2{
-	display: none;
-}
 /* End styling for content sections */
 
 /* CSS styling for browser styles */
-@media only screen and (max-width: 1024px){
-	#copyright{
-		padding-top: 100px;
-	}
-}
-@media only screen and (max-width: 928px){
-	#copyright{
-		padding-top: 80px;
-	}
-}
-@media only screen and (max-width: 850px){
-	#copyright{
-		padding-top: 65px;
-	}
-}
 @media only screen and (max-width: 768px){
 	#poster2{
 		display: none;
@@ -350,7 +327,6 @@ div.indent3{
 		font-size: 45px;
 	}
 	#copyright{
-		padding-top: 50px;
 		bottom: 40px;
 	}
 }
@@ -358,16 +334,12 @@ div.indent3{
 	#titlee{
 		letter-spacing: 0px;
 	}
-	#copyright{
-		padding-top: 40px;
-	}
 }
 @media only screen and (max-width: 650px){
 	#titlee{
 		display: none;
 	}
 	#copyright{
-		padding-top: 40px;
 		bottom: 30px;
 	}
 	#t2{
@@ -422,15 +394,8 @@ div.indent3{
 		font-size: 18px;
 	}
 }
-
-@media only screen and (max-width: 600px){
-	#copyright{
-		padding-top: 15px;
-	}
-}
 @media only screen and (max-width: 480px){
 	#copyright{
-		padding-top: 0px;
 		bottom: 15px;
 	}
 	#credits{
@@ -473,12 +438,6 @@ div.indent3{
     .dropdown.responsive .dropdown-content {
     	display: none;
     	background-color: none;
-    }
-    #r1{
-    	display: none;
-    }
-    .r2{
-    	display: inline;
     }
     #D{
     	padding-bottom: 30px;
