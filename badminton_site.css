@@ -213,6 +213,7 @@ div.section{
 	left: 0;
 	right: 0;
 	top: 120px;
+	/*bottom: 70%;*/
 }
 #photo1{
 	width: 100%;
@@ -324,6 +325,11 @@ div.indent3{
 	#copyright{
 		bottom: 40px;
 	}
+	#intro{
+		position: relative;
+		padding: none;
+		top: -20px;
+	}
 }
 @media only screen and (max-width: 700px){
 	#titlee{
@@ -373,11 +379,11 @@ div.indent3{
 	#d_img{
 		display: none;
 	}
-	#intro{
+	/*#intro{
 		position: relative;
 		padding: none;
 		top: -20px;
-	}
+	}*/
 	.dropbtn{
 		padding: none;
 		margin: none;
@@ -387,6 +393,9 @@ div.indent3{
 	}
 	#credits{
 		font-size: 18px;
+	}
+	.w3-container{
+		margin-top: 35px;
 	}
 }
 @media only screen and (max-width: 487px){
