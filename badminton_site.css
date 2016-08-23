@@ -439,10 +439,17 @@ div.indent3{
     display: none;
     background-color: none;
     }*/
-    /*.dropdown.responsive .dropdown-content {
+
+    .dropdown.responsive .dropdown-content {
     	display: none;
     	background-color: none;
-    }*/
+    }
+    /*.dropdown:hover .dropdown-content {
+    	display: block;
+    	text-align: right;
+    	float: right;
+    	align-content: right;
+	}*/
     #D{
     	padding-bottom: 30px;
     }
