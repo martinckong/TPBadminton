@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+	<link rel="stylesheet" type="text/css" href="badminton_site.css">
+	<!--
+	<link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Rakkas" rel="stylesheet" type='text/css'>
+	-->
+	<link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet" type='text/css'>
+	<title>TPHS Badminton</title>
+
+</head>
+
+<body data-spy="scroll" data-target="#header" data-offset="20">
+	
+	<h1 class="ttl" id="titlee"><center>Torrey Pines Varsity Badminton</center></h1>
+	<h1 class="ttl" id="t2"><center>Torrey Pines Badminton</center></h1>
+	<h1 class="ttl" id="t3"><center>TP Badminton</center></h1>
+	
+	<div id="h1">
+	<div id="header">
+		<nav class="nav" id="mainNav" data-spy="affix" data-offset-top="75">
+			<div class="container">
+				<ul class="nav">
+					<li><a class="smoothScroll" href="#W" id="nav1">Home</a></li>
+					<li><a class="smoothScroll" href="#S" id="nav1">Schedule</a></li>
+					<li><a class="smoothScroll" href="#R" id="nav1">Roster</a></li>
+					<li><a class="smoothScroll" href="#C" id="nav1">Contact</a></li>
+					<li><a class="smoothScroll" href="#D" id="nav1">Donate</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	</div>
+
+	<div id="h2">
+	<div id="header">
+		<nav class="nav" id="mainNav" data-spy="affix" data-offset-top="75">
+			<div class="container">
+					<li class="dropdown" id="togglepls">
+						<right><a onclick="myFunction2()" onmouseover="myFunction3()" href="#" class="dropbtn" id="nav1" style="color: white" style="padding-right: -15px">Menu</a></right>
+						<div class="dropdown-content" id="myDropdown">
+							<ul id="newsmall">
+								<li><a onclick="myFunction2()" class="smoothScroll" href="#W" id="nav1">Home</a></li>
+								<li><a onclick="myFunction2()" class="smoothScroll" href="#S" id="nav1">Schedule</a></li>
+								<li><a onclick="myFunction2()" class="smoothScroll" href="#R" id="nav1">Roster</a></li>
+								<li><a onclick="myFunction2()" class="smoothScroll" href="#C" id="nav1">Contact</a></li>
+								<li><a onclick="myFunction2()" class="smoothScroll" href="#D" id="nav1">Donate</a></li>
+							</ul>
+						</div>
+					</li>
+			</div>
+		</nav>
+	</div>
+	</div>
+
+	<!--<nav class="navbar navbar-inverse" style="z-index: 100" style="background-color: white">
+		<div class="container-fluid" style="background-color: ">
+    		<div class="navbar-header">
+      			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+   	 			    <span class="icon-bar"></span>
+   			        <span class="icon-bar"></span>
+      		    	<span class="icon-bar"></span> 
+      			</button>
+    		</div>
+    		<div class="collapse navbar-collapse" id="myNavbar">
+      			<ul class="nav navbar-nav">
+    		    	<li class="active"><a href="#">Home</a></li>
+    			    <li><a href="#">Page 1</a></li>
+   			        <li><a href="#">Page 2</a></li> 
+    			    <li><a href="#">Page 3</a></li> 
+   			   </ul>
+    		</div>
+  		</div>
+	</nav>-->
+
+	<div class="w3-container">
+		<div id="d2">
+			<img src="./photos/cover2.jpg" id="photo1">
+			<div id="down">
+				<center><a class="smoothScroll" href="#W"><img src="./photos/down.png" id="d_img"></a></center>
+			</div>
+			<div id="down">
+				<h2 id="intro"><center>*No Contact Period: 7.30.16 - 8.12.16*</center></h2>
+			</div>
+		</div>
+		<div class="section" id="W">
+			<h1>Welcome</h1>
+			<div class="content">
+				<p>We are the newest varsity CIF sport at Torrey Pines High School, founded in the 2014-2015 school year and joining the roster of spring sports. We are the only North County school with a badminton team, and we compete in the Eastern League with Mira Mesa, Scripps Ranch, La Jolla, Mission Bay, and Cathedral Catholic. Our team fields 5 events: men's singles, men's doubles, women's singles, women's doubles, and mixed doubles.</p>
+			</div>
+		</div>
+		<div class="section" id="S">
+			<h1>Schedule</h1>
+			<div class="content">
+				<p id="tbd">Our 2017 schedule has not been released yet. Release date: TBD</p>
+				<h2>2016 schedule:</h2>
+				<table id="tab">
+					<tr>
+						<td><p>Thursday</p></td>
+						<td><p>3.3.16</p></td>
+						<td><p>vs.</p></td>
+						<td id="school"><p>La Jolla High School</p></td>
+						<td rowspan="10" id="pos"><img src="./photos/badminton4.JPG" id="poster2"></td>
+					</tr>
+					<tr>
+						<td><p>Tuesday</p></td>
+						<td><p>3.15.16</p></td>
+						<td><p>vs.</p></td>
+						<td id="school"><p>Cathedral Catholic High School</p></td>
+					</tr>
+					<tr>
+						<td><p>TBD</p></td>
+						<td><p>TBD</p></td>
+						<td><p>vs.</p></td>
+						<td id="school"><p>Mira Mesa High School</p></td>
+					</tr>
+					<tr>
+						<td><p>Tuesday</p></td>
+						<td><p>3.22.16</p></td>
+						<td><p>vs.</p></td>
+						<td id="school"><p>Mission Bay High School</p></td>
+					</tr>
+					<tr>
+						<td><p>Wednesday</p></td>
+						<td><p>3.16.16</p></td>
+						<td><p>vs.</p></td>
+						<td id="school"><p>Scripps Ranch High School</p></td>
+					</tr>
+					<tr>
+						<td><p>Monday</p></td>
+						<td><p>4.11.16</p></td>
+						<td><p>vs.</p></td>
+						<td id="school"><p>La Jolla High School</p></td>
+					</tr>
+					<tr>
+						<td><p>Thursday</p></td>
+						<td><p>4.14.16</p></td>
+						<td><p>vs.</p></td>
+						<td id="school"><p>Cathedral Catholic High School</p></td>
+					</tr>
+					<tr>
+						<td><p>Thursday</p></td>
+						<td><p>4.21.16</p></td>
+						<td><p>vs.</p></td>
+						<td id="school"><p>Mira Mesa High School</p></td>
+					</tr>
+					<tr>
+						<td><p>Wednesday</p></td>
+						<td><p>4.27.16</p></td>
+						<td><p>vs.</p></td>
+						<td id="school"><p>Mission Bay High School</p></td>
+					</tr>
+					<tr>
+						<td><p>Thursday</p></td>
+						<td><p>5.5.16</p></td>
+						<td><p>vs.</p></td>
+						<td id="school"><p>Scripps Ranch High School</p></td>
+					</tr>
+				</table>
+
+				<table id="tab2">
+					<tr>
+						<td><p>Thu.</p></td>
+						<td><p>3.3.16</p></td>
+						<td><p>vs.</p></td>
+						<td id="school"><p>La Jolla HS</p></td>
+					</tr>
+					<tr>
+						<td><p>Tue.</p></td>
+						<td><p>3.15.16</p></td>
+						<td><p>vs.</p></td>
+						<td id="school"><p>Cathedral Catholic HS</p></td>
+					</tr>
+					<tr>
+						<td><p>TBD</p></td>
+						<td><p>TBD</p></td>
+						<td><p>vs.</p></td>
+						<td id="school"><p>Mira Mesa HS</p></td>
+					</tr>
+					<tr>
+						<td><p>Tue.</p></td>
+						<td><p>3.22.16</p></td>
+						<td><p>vs.</p></td>
+						<td id="school"><p>Mission Bay HS</p></td>
+					</tr>
+					<tr>
+						<td><p>Wed.</p></td>
+						<td><p>3.16.16</p></td>
+						<td><p>vs.</p></td>
+						<td id="school"><p>Scripps Ranch HS</p></td>
+					</tr>
+					<tr>
+						<td><p>Mon.</p></td>
+						<td><p>4.11.16</p></td>
+						<td><p>vs.</p></td>
+						<td id="school"><p>La Jolla HS</p></td>
+					</tr>
+					<tr>
+						<td><p>Thu.</p></td>
+						<td><p>4.14.16</p></td>
+						<td><p>vs.</p></td>
+						<td id="school"><p>Cathedral Catholic HS</p></td>
+					</tr>
+					<tr>
+						<td><p>Thu.</p></td>
+						<td><p>4.21.16</p></td>
+						<td><p>vs.</p></td>
+						<td id="school"><p>Mira Mesa HS</p></td>
+					</tr>
+					<tr>
+						<td><p>Wed.</p></td>
+						<td><p>4.27.16</p></td>
+						<td><p>vs.</p></td>
+						<td id="school"><p>Mission Bay HS</p></td>
+					</tr>
+					<tr>
+						<td><p>Thu.</p></td>
+						<td><p>5.5.16</p></td>
+						<td><p>vs.</p></td>
+						<td id="school"><p>Scripps Ranch HS</p></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="section" id="R">
+			<h1>Roster</h1>
+			<div class="content">
+				<p>Meet our 2016 varsity team!</p>
+				<img src="./photos/badminton6.JPG" id="photo2">
+				<div class="row">
+					<div class="col-md-3 col-sm-6">
+						<h2>Seniors</h2>
+						<div class="indent3">
+							<p>Bryan Chen</p>
+							<p>Yuanze (Roger) Cheng</p>
+							<p>Daesong Choi</p>
+							<p>Carolyn Chu</p>
+							<p>Blake Djavaherian</p>
+							<p>Emma Gunnarsson</p>
+							<p>Harrison Holcomb</p>
+							<p>Nathan Hyunh</p>
+							<p>Joosung Lee</p>
+							<p>Jiyai (Eric) Luo</p>
+							<p>Jialei (Gary) Pei</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<h2>Juniors</h2>
+						<div class="indent3">
+							<p>Emily Hou</p>
+							<p>Michelle Hsiao</p>
+							<p>Fansen (Joseph) Kong</p>
+							<p>Stacy Kong</p>
+							<p>Ananya Krishnan</p>
+							<p>Grace Lee</p>
+							<p>Joo Eun (June) Kim</p>
+							<p>Jacalyn Li</p>
+							<p>Jenny Li</p>
+							<p>Joyce Li</p>
+							<p>Xiya Li</p>
+							<p>Dominik Schmidt</p>
+							<p>ByungChan (Chan) Woo</p>
+							<p>Kyle Xiao</p>
+							<p>Michelle Yao</p>
+							<p>Harim Yoon</p>
+							<p>Qihan (Amy) Yu</p>
+							<p>Caroline Zhang</p>
+							<p>George Zhang</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<h2>Sophomores</h2>
+						<div class="indent3">
+							<p>Leslie Chan</p>
+							<p>Russell Chiang</p>
+							<p>Matthew Kim</p>
+							<p>Simon Kim</p>
+							<p>Yoon-Joon (YJ) Lee</p>
+							<p>Hayoung Park</p>
+							<p>Vyvian Pham</p>
+							<p>Kyle Sasagawa</p>
+							<p>Megan Tran</p>
+							<p>Yi Rin You</p>
+							<p>Robin Yu</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<h2>Freshmen</h2>
+						<div class="indent3">
+							<p>Alison Appelgate</p>
+							<p>Seojin Jung</p>
+							<p>Daehan Kim</p>
+							<p>Khoa Le</p>
+							<p>Jihyun (Grace) Lee</p>
+							<p>Yuke Liu</p>
+							<p>Aviva Schwaiger</p>
+							<p>Eilee Shahidi</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section" id="C">
+			<h1>Contact</h1>
+			<div class="content">
+				<div class="row">
+					<div class="col-sm-4">
+						<center><img src="./photos/trupeprofile.jpg" class="profiles" id="trupe"></center>
+						<h2><center>Lars Trupe</center></h2>
+						<h3><center>Head Coach</center></h3>
+						<p id="bio">Faculty representative, in charge of arranging practices, coordinating match times, and inter team relations.</p>
+					</div>
+					<div class="col-sm-4">
+						<center><img src="./photos/tuan.jpg" class="profiles" id="photo4"></center>
+						<h2><center>Tuan Tran</center></h2>
+						<h3><center>Assistant Coach</center></h3>
+						<p id="bio">Tuan Tran (alongside Lars Trupe) is Torrey Pines High School's first badminton coach. From 2012 to present, he has assistant coached badminton at San Diego Miramar College, Cuyamaca College, and Grossmont College. He is recently a gold medalist of the 2016 California State Games Tournament. He is most well known for his knowledge and explanation of the mechanics of badminton.</p>
+					</div>
+					<div class="col-sm-4">
+						<center><img src="./photos/doreen.jpg" class="profiles" id="photo4"></center>
+						<h2><center>Doreen Hom</center></h2>
+						<h3><center>Parent Liaison</center></h3>
+						<p id="bio">Doreen Hom is Torrey Pines Badminton's official team manager. She is in charge of uniforms, team budgets, coordinating rides, and everything necessary to ensure the success of the team. She lettered in badminton at San Diego High School then played at University of California, San Diego.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section" id="D">
+			<h1>Donate</h1>
+			<div class="content">
+				<p>Donations can be made to TPHS Badminton through the <a href="http://www.torreypinesfoundation.org/product/boosters/" target="_blank" id="donate">Torrey Pines Foundation.</a> We thank you for your kind support!</p>
+				<img src="./photos/badminton7.JPG" id="photo3">
+			</div>
+		</div>
+
+		<div class="row r1">
+			<div class="col-xs-5">
+				<center><img src="./photos/tp_logo.jpg" id="bottom2"></center>
+			</div>
+			<div class="col-xs-2"></div>
+			<div class="col-xs-5">
+				<center><img src="./photos/rackets.png" id="bottom4"></center>
+			</div>
+		</div>
+		<div class="r1" id="copyright">
+			<p id="credits">Copyright © 2016 Martin Kong</p>
+		</div>
+
+	</div>
+
+	<!--<script type="text/javascript">
+		$('#header').affix({
+		    offset: {
+        		top: 180;
+      		}
+		});	
+	</script>-->
+
+	<!--<script type="text/javascript">
+		$('#mainNav').affix({
+  			offset: {
+    			top: 100
+  			}
+		})
+	</script>-->
+	<!--<script type="text/javascript">
+		document.getElementById('title').style.display='none'
+	</script>-->
+
+	<!--SMOOTH SCROLL JAVASCRIPT-->
+	<script>
+	$(document).ready(function(){
+		$('a[href^="#"]').on('click',function (e) {
+	    	e.preventDefault();
+
+		    var target = this.hash;
+		    var $target = $(target);
+
+		    $('html, body').stop().animate({
+		        'scrollTop': $target.offset().top
+	    	}, 600, 'swing', function () {
+	        	window.location.hash = target;
+		    });
+		});
+	});
+	</script>
+
+	<!-- When the user clicks on the button, 
+	toggle between hiding and showing the dropdown content 
+	<script>
+		function myFunction() {
+    		document.getElementById("myDropdown").classList.toggle("show");
+		}
+	</script> -->
+
+	<!-- Close the dropdown menu if the user clicks outside of it 
+	<script>
+		window.onclick = function(event) {
+  			if (!event.target.matches('.dropbtn')) {
+		    	var dropdowns = document.getElementsByClassName("dropdown-content");
+    			var i;
+    			for (i = 0; i < dropdowns.length; i++) {
+      				var openDropdown = dropdowns[i];
+      				if (openDropdown.classList.contains('show')) {
+        				openDropdown.classList.remove('show');
+    	  			}
+    			}
+  			}
+		}
+	</script> -->
+
+	<script>
+		function myFunction() {
+    		var x = document.getElementById("togglepls");
+    		x.className = "dropdown responsive";
+		}
+	</script>
+	<script>
+		function myFunction2() {
+    		//document.getElementById("myDropdown").style.display = "none";
+			var x = document.getElementById("togglepls");
+    		if (x.className === "dropdown") {
+        		x.className += " responsive";
+    		} else {
+        		x.className = "dropdown";
+    		}
+    	}
+	</script>
+	<script>
+		function myFunction3() {
+    		var x = document.getElementById("togglepls");
+        	x.className = "dropdown";
+		}
+	</script>
+
+	<script>
+	   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-82088516-1', 'auto');
+  		ga('send', 'pageview');
+
+	</script>
+
+</body>
+</html>
+
+<!--
+	inspiration/assistance:
+		in creating the nav bar:
+			http://www.hongkiat.com/blog/responsive-web-nav/
+			http://davidmiller.io/2016/01/20/creating-a-collapse-on-scroll-bootstrap-navbar/
+		in smooth scroll:
+			view-source:https://matward.github.io/yoga-option/#about
+			https://matward.github.io/yoga-option/css/style.css
+		in scrollspy:
+			http://tutsme-webdesign.info/bootstrap-3-scrollspy/
+			http://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp
+		in ux design:
+			http://graphicdesign.stackexchange.com/questions/25356/why-not-pure-black-and-pure-white
+			http://www.uxmatters.com/mt/archives/2007/01/applying-color-theory-to-digital-displays.php
+			http://uxmovement.com/content/when-to-use-white-text-on-a-dark-background/
+		in general:
+			primary:
+				http://stackoverflow.com/questions/15028702/easiest-way-to-reset-bootstrap-css-attributes
+			secondary:
+				http://www.w3schools.com/howto/howto_js_topnav.asp
+				http://www.elated.com/articles/responsive-web-design-demystified/
+				http://www.elated.com/articles/responsive-web-design-5-handy-tips/
+		in site dimensions:
+			http://www.websitedimensions.com/
+		in domain names and hosting:
+			primary:
+				http://www.jonhmchan.com/blog/2014/4/28/finally-a-guide-to-hosting-your-website
+				https://medium.com/@LovettLovett/github-pages-godaddy-f0318c2f25a#.6y3xjn2oy
+			secondary:
+				https://help.github.com/articles/setting-up-a-www-subdomain/
+				https://www.thinkful.com/learn/a-guide-to-using-github-pages/start/existing-project/project-page/new-repo/
+				http://learntocodewith.me/tutorials/github-pages/
+				https://www.godaddy.com/help/add-a-cname-record-19236
+
+	good read:
+		http://collegeinfogeek.com/personal-website/
+-->
+
+
+
