@@ -311,6 +311,9 @@ div.indent3{
 	height: auto;
 	max-width: 280px;
 }
+#makewhite{
+	color: white;
+}
 /* End styling for content sections */
 
 /* CSS styling for browser styles */
