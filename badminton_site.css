@@ -315,6 +315,16 @@ div.indent3{
 	color: white;
 	font-size: 24px;
 }
+#homesquare{
+	color: #ffff94;
+	background-color: #ffff94;
+}
+.home{
+	color: #ffff94;
+}
+.home > td > p{
+	color: #ffff94;
+}
 /* End styling for content sections */
 
 /* CSS styling for browser styles */
