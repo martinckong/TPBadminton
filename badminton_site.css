@@ -245,9 +245,6 @@ td{
 	width: 100%;
 	height: auto;
 	max-width: 400px;
-	/*border-style: solid;
-	border-color: white;
-	border-width: 2px;*/
 	-webkit-filter: brightness(115%);
 	filter: brightness(115%);
 }
