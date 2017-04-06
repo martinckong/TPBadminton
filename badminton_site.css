@@ -245,9 +245,11 @@ td{
 	width: 100%;
 	height: auto;
 	max-width: 400px;
-	border-style: solid;
+	/*border-style: solid;
 	border-color: white;
-	border-width: 2px;
+	border-width: 2px;*/
+	-webkit-filter: brightness(115%);
+	filter: brightness(115%);
 }
 #tab2{
 	display: none;
@@ -313,9 +315,11 @@ div.indent3{
 	height: auto;
 	max-width: 280px;
 }
-#makewhite{
+.makewhite{
 	color: white;
-	font-size: 24px;
+}
+.makeyellow{
+	color: #ffff94
 }
 #homesquare{
 	color: #ffff94;
@@ -326,6 +330,9 @@ div.indent3{
 }
 .home > td > p{
 	color: #ffff94;
+}
+div.indent{
+	padding-left: 20px;
 }
 /* End styling for content sections */
 
