@@ -12,7 +12,7 @@ body{
 h1.ttl{
 	color: white;
 	width: 100%;
-    font-family: 'Jura', sans-serif;
+    font-family: 'Lato', sans-serif;
     position: absolute;
     z-index: 4;
     top: 0;
@@ -39,7 +39,7 @@ h1.ttl{
 }
 nav {
     width: 100%;
-    font-family: 'Jura', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 #mainNav{
 	padding-top: 80px;
@@ -152,7 +152,7 @@ li.dropdown {
 
 /* General CSS styling */
 div.w3-container{
-	font-family: 'Jura', sans-serif;
+	font-family: 'Lato', sans-serif;
 	background-color: black;
 	color: white;
 	padding-left: 30px;
@@ -168,6 +168,7 @@ p{
 	font-size: 20px;
 	line-height: 160%;
 	color: #d8d8d8;
+	font-family: 'Jura', sans-serif;
 }
 div.section{
 	padding-top: 40px;
@@ -476,18 +477,4 @@ div.indent{
 }
 
 
-
-/*
-	Godaddy note:
-		removed a (host) record:
-			host: @
-			points to: 184.168.221.45
-			ttl: custom
-			seconds: 600
-		done so website always points to github servers
-		credit to:
-			http://serverfault.com/questions/743327/godaddy-domain-randomly-not-resolving-to-github-pages
-			http://andrewsturges.com/blog/jekyll/tutorial/2014/11/06/github-and-godaddy.html
-
-*/
 
