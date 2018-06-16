@@ -17,6 +17,9 @@ h1.ttl{
     z-index: 4;
     top: 0;
 }
+h3{ /*styling for no contact info*/
+	color:red;
+}
 #titlee{
 	font-size: 50px;
     letter-spacing: 2px;
@@ -86,13 +89,13 @@ a {
 	z-index: 5;
 }
 li.active,
-li.active:hover, 
+li.active:hover,
 li.active:focus  {
  	background: none;
  	color: none;
 }
 li.active a,
-li.active:hover a, 
+li.active:hover a,
 li:focus a {
 	color: none;
 	background-color: none;
@@ -475,6 +478,3 @@ div.indent{
     	padding-bottom: 30px;
     }
 }
-
-
-
