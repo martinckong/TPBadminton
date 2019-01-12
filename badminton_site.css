@@ -17,9 +17,7 @@ h1.ttl{
     z-index: 4;
     top: 0;
 }
-/*h3{ /*styling for no contact info*/
-/*	color:red;
-}*/
+
 #titlee{
 	font-size: 50px;
     letter-spacing: 2px;
@@ -238,6 +236,25 @@ div.section{
 td{
 	padding-right: 2%;
 }
+#tour1{
+	width: 15%;
+}
+#tour2{
+	width: 17%;
+}
+#tour3{
+	width: 25%;
+}
+#tour4{
+	width: 8%;
+}
+#tour5{
+	width: 35%;
+}
+#tourna{
+	width: 100%;
+	table-layout: fixed;
+}
 #school{
 	padding-right: none;
 }
@@ -321,6 +338,9 @@ div.indent3{
 }
 .makeyellow{
 	color: #ffff94
+}
+.makered{
+	color: red;
 }
 #homesquare{
 	color: #ffff94;
