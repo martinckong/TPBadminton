@@ -251,10 +251,11 @@ td{
 #tour5{
 	width: 35%;
 }
-#tourna{
+/*#tourna{
 	width: 100%;
 	table-layout: fixed;
-}
+	display: none;
+}*/
 #school{
 	padding-right: none;
 }
