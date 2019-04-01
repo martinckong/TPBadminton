@@ -270,6 +270,17 @@ td{
 	-webkit-filter: brightness(115%);
 	filter: brightness(115%);
 }
+#pic{
+	padding-left: 0%;
+	padding-right: 0%;
+}
+#poster{
+	width: 100%;
+	height: auto;
+	max-width: 525px;
+	-webkit-filter: brightness(115%);
+	filter: brightness(115%);
+}
 #tab2{
 	display: none;
 	width: 100%;
